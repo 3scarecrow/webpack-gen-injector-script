@@ -1,0 +1,15 @@
+{
+  "name": "webpack-gen-injector-script",
+  "version": "1.0.0",
+  "description": "Webpack plugin to generating resource injection scripts based on HtmlWebpackPlugin",
+  "main": "index.js",
+  "keywords": [
+    "webpack-injector-plugin",
+    "gen-injector-script",
+    "gen-script",
+    "webpack"
+  ],
+  "repository": "https://github.com/3scarecrow/webpack-gen-injector-script.git",
+  "author": "3scarecrow",
+  "license": "MIT"
+}
