@@ -58,9 +58,23 @@
 ## 安装
 
 ```sh
-yarn add @3scarecrow/webpack-gen-injector-script
+yarn add webpack-gen-injector-script
 
 # or
 
-npm install @3scarecrow/webpack-gen-injector-script
+npm install webpack-gen-injector-script
+```
+
+## 用法
+
+```js
+// webpack.config.js
+const GenInjectorScript = require('webpack-gen-injector-script')
+
+module.exports = {
+  // ...
+  plugins: [
+    new GenInjectorScript()
+  ]
+}
 ```
